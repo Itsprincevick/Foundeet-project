@@ -5,7 +5,7 @@ import Countdown from "./components/Countdown";
 import logo from "./assets/gear.svg";
 import Title from "./components/Title";
 import Description  from "./components/discription";
-import title from "./assets/foundeet.svg";
+import title from "./assets/g10.png";
 
 
 class Foundeet extends Component {
