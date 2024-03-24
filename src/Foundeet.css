@@ -1,0 +1,21 @@
+
+.background {
+ display: grid;
+ grid-gap: 1rem;
+ grid-template-columns: 1fr;
+ grid-template-rows: 100px auto auto 2rem 100px auto;
+  grid-template-areas:
+  "counter"
+  "logo"
+  "title"
+  "description"
+  "subscribe"
+  "social";
+  justify-items: center;
+  align-items: center;
+  color: whitesmoke;
+}
+
+
+
+  

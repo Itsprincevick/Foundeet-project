@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.7);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../src/assets/floating-cogs.svg);
+  background-color: #292f36;
+  min-height: calc(100vh - 100px);
+  padding: 1rem;
+  height: 100vh;
+  overflow-y: hidden;
+}
